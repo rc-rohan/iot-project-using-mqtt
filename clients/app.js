@@ -9,7 +9,7 @@ let windowStatus;
 btn.innerHTML = "Window Closed";
 console.log("hello from frontend");
 window.addEventListener("load", async () => {
-  await fetch("http://localhost:3000/getData",{
+  await fetch("http://localhost:9000/getData",{
     mode:'cors',
     credentials:'include'
   })
